@@ -5,8 +5,8 @@ import React from 'react'
 const About = () => {
   return (
     <VStack p={5}>
-      <Text>Get to Know more</Text>
-      <Heading fontSize={{base:"2xl",sm:"3xl"}}>About Me</Heading>
+      <Text fontSize={{base:"10px", md:"12px"}}>Get to Know more</Text>
+      <Heading fontSize={{base:"2xl",sm:"3xl", md:"4xl"}}>About Me</Heading>
       <Grid  templateColumns={{base:"1fr", md:"1fr 2fr"}} gap={2} m={"auto"} justifyContent={"center"} alignItems={"center"} p={{base:0, sm:5}} >
         <GridItem>
           

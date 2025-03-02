@@ -4,6 +4,7 @@ import Navbar from './components/react/Navbar'
 import Home from './components/react/Home'
 import About from './components/react/About'
 import Skills from './components/react/Skills'
+import Projects from './components/react/Projects'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Home/>
       <About/>
       <Skills/>
+      <Projects/>
     </VStack>
   )
 }
