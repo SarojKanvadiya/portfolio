@@ -4,7 +4,7 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <VStack>
+        <VStack id='projects'>
             <Text fontSize={{ base: "10px", md: "12px" }}>Browse My Recent</Text>
             <Heading fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} mb={{base:0, md:4}}  mt={{base:-2, sm:-1,md:0}}>Projects</Heading>
             <Grid templateColumns={{base:"1fr", lg:"2fr 1fr"}} w={"90%"} m={5}>

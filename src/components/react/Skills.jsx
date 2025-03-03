@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <VStack>
+    <VStack id='skills'>
         <Heading fontSize={{base:"2xl",sm:"3xl", md:"4xl"}}>SKills</Heading>
         <Flex wrap="wrap" gap={1} m={6} justifyContent={"center"} display={{base:"none", md:"flex"}} >
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
