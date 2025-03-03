@@ -6,8 +6,8 @@ const Projects = () => {
     return (
         <VStack>
             <Text fontSize={{ base: "10px", md: "12px" }}>Browse My Recent</Text>
-            <Heading fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }}>Projects</Heading>
-            <Grid templateColumns={{base:"1fr", lg:"2fr 2fr"}} w={"90%"} m={5}>
+            <Heading fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} mb={{base:0, md:4}}  mt={{base:-2, sm:-1,md:0}}>Projects</Heading>
+            <Grid templateColumns={{base:"1fr", lg:"2fr 1fr"}} w={"90%"} m={5}>
                 <GridItem m={"auto"}>
                     <Image src='src\assets\home.png' display={{base:"none", md:"flex"}}/>
                     <Image src='src\assets\home2.png' w={{base:"250px", sm:"350px"}} display={{base:"flex", md:"none"}}/>
