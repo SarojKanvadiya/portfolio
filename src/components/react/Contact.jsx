@@ -7,7 +7,7 @@ const Contact = () => {
     <VStack>
       <Text fontSize={{ base: "10px", md: "12px" }}>Get In Touch</Text>
       <Heading fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} mt={{ base: -2, sm: -1, md: 0 }}>Contact Me</Heading>
-      <Grid templateColumns={{base:"1fr", md:"1fr 1fr"}} gap={{base:2,md:3, lg:5}} m={6} justifyContent={"center"} alignItems={"center"}>
+      <Grid templateColumns={{base:"1fr", md:"1fr 1fr"}} gap={{base:2,md:3, lg:5}} mt={6} justifyContent={"center"} alignItems={"center"}>
         <GridItem  bg={'teal.100'} pt={2} fontSize={{base:13, sm:15}} borderRadius={7} alignItems={"center"} justifyContent={"center"} w={{base:"250px", sm:"300px", md:"350px", lg:"400px"}}>
           <Link href='https://github.com/SarojKanvadiya' target='_blank'  ml={{base:2, sm:5}}>
           <FaGithub size={"25px"}/>
