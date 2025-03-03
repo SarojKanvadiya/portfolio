@@ -18,7 +18,7 @@ const About = () => {
         <GridItem>
             <Text p={{base:0, sm:2}} fontSize={{base:"14px", sm:"15px"}}>Dynamic and detail-oriented Front-End Developer skilled in building responsive user interfaces using HTML, CSS, JavaScript, and React. Proficient in leveraging the DOM for interactive designs and experienced with Git for version control. A quick learner committed to delivering clean and efficient code.</Text>
             <Center>
-            <Link>
+            <Link href='src\assets\SarojKanvadiya-FrontendDeveloper(React)-WWwB.pdf' download={'SarojKanvadiya-FrontendDeveloper(React)'}>
             <Button size={"sm"} colorPalette={"teal"} m={3}><FaFileArrowDown /> Resume</Button>
             </Link>
             </Center>

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <VStack>
+    <VStack id='contact'>
       <Text fontSize={{ base: "10px", md: "12px" }}>Get In Touch</Text>
       <Heading fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} mt={{ base: -2, sm: -1, md: 0 }}>Contact Me</Heading>
       <Grid templateColumns={{base:"1fr", md:"1fr 1fr"}} gap={{base:2,md:3, lg:5}} mt={6} justifyContent={"center"} alignItems={"center"}>

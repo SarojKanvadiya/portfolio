@@ -20,7 +20,9 @@ const Navbar = () => {
                 <Link color={"white"}>Projects</Link>
                 <Link color={"white"}>Statistics</Link>
                 <Link color={"white"}>Contact</Link>
+                <Link href='src\assets\SarojKanvadiya-FrontendDeveloper(React)-WWwB.pdf' download={'SarojKanvadiya-FrontendDeveloper(React)'}>
                 <Button ml={10} variant={"outline"} color={"white"}><FaFileArrowDown /> Resume</Button>
+                </Link>
             </Flex>
 
             <Flex justify={{base:"space-between", sm:"space-around"}} fontSize={"18px"} align={"center"} mr={5}>

@@ -1,6 +1,6 @@
 import { Button, Flex, Heading, HStack, Link, Text, VStack } from '@chakra-ui/react'
 import { BiSolidContact } from "react-icons/bi";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import React from 'react'
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
         <Heading size={{base:"2xl", sm:"3xl"}}>Saroj Kanvadiya</Heading>
         <Text fontSize={{base:"15px", sm:"20px", md:"30px"}} fontWeight={"bold"}>Fontend Developer</Text>
         <HStack p={4}>
-        <Link><Button colorPalette={"teal"} size={"sm"} mr={{base:0, sm:2, md:5}}> <BiSolidContact/><Text display={{base:"none", sm:"flex"}}>Contact Info</Text></Button></Link> <Link><Button colorPalette={"teal"} size={"sm"} mr={{base:0, sm:2, md:5}}><FaGithubSquare/><Text display={{base:"none", sm:"flex"}}>Git Hub</Text></Button></Link> 
-        <Link><Button colorPalette={"teal"} size={"sm"} mr={{base:0, sm:2, md:5}}><FaLinkedin/><Text display={{base:"none", sm:"flex"}}>Linked In</Text></Button></Link>
+        <Link href='#contact'><Button colorPalette={"teal"} size={"sm"} mr={{base:0, sm:2, md:5}}> <BiSolidContact/><Text display={{base:"none", sm:"flex"}}>Contact Info</Text></Button></Link> <Link href='https://github.com/SarojKanvadiya' target='_blank'><Button colorPalette={"teal"} size={"sm"} mr={{base:0, sm:2, md:5}}><FaGithub size={"25px"}/><Text display={{base:"none", sm:"flex"}}>Git Hub</Text></Button></Link> 
+        <Link  href='https://www.linkedin.com/in/saroj-kanvadiya-5692a116b/' target='_blank'><Button colorPalette={"teal"} size={"sm"} mr={{base:0, sm:2, md:5}}>< FaLinkedinIn size={"25px"}/><Text display={{base:"none", sm:"flex"}}>Linked In</Text></Button></Link>
             
         </HStack>
     </Flex>
