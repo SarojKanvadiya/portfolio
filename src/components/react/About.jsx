@@ -11,7 +11,7 @@ const About = () => {
         <GridItem>
           
            <Center>
-           <Image src='portfolio\src\assets\sarojkanvadiya.jpg' w={{base:"100px", sm:"150px", md:"200px"}} border={"2px solid red"}/>
+           <Image src='portfolio\src\assets\sarojkanvadiya.jpg' alt='sarojkanvadiya' w={{base:"100px", sm:"150px", md:"200px"}} border={"2px solid red"}/>
            </Center>
            
         </GridItem>
