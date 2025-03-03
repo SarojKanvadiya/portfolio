@@ -38,7 +38,8 @@ const Navbar = () => {
                         <TfiMenuAlt size="30px" />
                     </Button>
                 </Flex> */}
-                 <MenuRoot display={{ base: "flex", md: "none" }}>
+                 <Flex display={{ base: "flex", md: "none" }}>
+                 <MenuRoot>
                 <MenuTrigger asChild>
                 <Button variant={"outline"} color={"white"} onClick={() => setMenu(!menu)}>
                         <TfiMenuAlt size="30px" />
@@ -70,7 +71,8 @@ const Navbar = () => {
                     </MenuItem>
 
                 </MenuContent>
-            </MenuRoot>
+            </MenuRoot>   
+                 </Flex>
 
             </Flex>
             {/* <Container w="100%" bg={"red"} m={-2} display={menu ? "flex" : "none"} className='nav navbar '>
