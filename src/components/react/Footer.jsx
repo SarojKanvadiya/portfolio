@@ -1,10 +1,11 @@
+import { HStack, Text } from '@chakra-ui/react'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <HStack>
+      <Text>Thank you for visiting my Portfolio</Text>
+    </HStack>
   )
 }
 

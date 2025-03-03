@@ -3,7 +3,7 @@ import React from 'react'
 
 const Statistics = () => {
   return (
-    <VStack w={"100%"} border={"2px solid red"}>
+    <VStack w={"100%"}>
       <Text fontSize={{ base: "10px", md: "12px" }} mt={{ base: 0, md: 3 }}>GitHub Stats </Text>
       <Heading fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} mt={{ base: -2, sm: -1, md: 0 }}>Statistics</Heading>
 

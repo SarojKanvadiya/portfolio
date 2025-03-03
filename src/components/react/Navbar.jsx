@@ -5,7 +5,7 @@ import { CgCloseR } from "react-icons/cg";
 import React, { useState } from 'react'
 
 const Navbar = () => {
-    const [menu, setMenu] = useState(true)
+    const [menu, setMenu] = useState(false)
     const [close, setClose] = useState(true)
     console.log(menu,"menu",close,"close")
     return (
