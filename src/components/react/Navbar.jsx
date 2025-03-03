@@ -38,7 +38,7 @@ const Navbar = () => {
                         <TfiMenuAlt size="30px" />
                     </Button>
                 </Flex> */}
-                 <MenuRoot>
+                 <MenuRoot display={{ base: "flex", md: "none" }}>
                 <MenuTrigger asChild>
                 <Button variant={"outline"} color={"white"} onClick={() => setMenu(!menu)}>
                         <TfiMenuAlt size="30px" />
