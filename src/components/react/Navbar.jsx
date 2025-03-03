@@ -42,7 +42,7 @@ const Navbar = () => {
                  <MenuRoot>
                 <MenuTrigger asChild>
                 <Button variant={"outline"} color={"white"} onClick={() => setMenu(!menu)}>
-                        <TfiMenuAlt size="30px" />
+                        <TfiMenuAlt size="30px" />Menu
                     </Button>
                 </MenuTrigger>
                 <MenuContent>
