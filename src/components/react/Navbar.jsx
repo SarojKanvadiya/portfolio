@@ -1,16 +1,11 @@
-import { Button, Container, Flex, Link, Heading,   MenuContent,
-    MenuItem,
-    MenuRoot,
-    MenuTrigger, } from '@chakra-ui/react'
+import { Button, Flex, Link, Heading, MenuContent, MenuItem, MenuRoot, MenuTrigger, } from '@chakra-ui/react'
 import { FaFileArrowDown } from "react-icons/fa6";
 import { TfiMenuAlt } from "react-icons/tfi";
-import { CgCloseR } from "react-icons/cg";
 import resume from '../../images/SarojKanvadiya.pdf'
 import React, { useState } from 'react'
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false)
-    const [close, setClose] = useState(true)
     console.log(menu, "menu", close, "close")
     return (
         <>

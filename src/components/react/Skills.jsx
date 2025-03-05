@@ -1,4 +1,4 @@
-import { VStack, Heading, Flex, Box, Image, Text, HStack } from '@chakra-ui/react'
+import { VStack, Heading, Flex, Image, Text} from '@chakra-ui/react'
 import img1 from '../../images/html.png'
 import img2 from '../../images/css.png'
 import img3 from '../../images/js.png'
@@ -7,7 +7,7 @@ import img5 from '../../images/react.png'
 import img6 from '../../images/redux.png'
 import img7 from '../../images/chakra.png'
 import img8 from '../../images/github.png'
-import img9 from '../../images/visul.png'
+import img9 from '../../images/visual.png'
 
 import React from 'react'
 

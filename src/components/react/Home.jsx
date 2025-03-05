@@ -1,4 +1,4 @@
-import { Button, Flex, Heading, HStack, Link, Text, VStack } from '@chakra-ui/react'
+import { Button, Flex, Heading, HStack, Link, Text} from '@chakra-ui/react'
 import { BiSolidContact } from "react-icons/bi";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import React from 'react'

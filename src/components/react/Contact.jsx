@@ -1,4 +1,4 @@
-import { VStack, Text, Heading, Flex, Link, Grid,GridItem } from '@chakra-ui/react'
+import { VStack, Text, Heading, Link, Grid,GridItem } from '@chakra-ui/react'
 import { FaGithub,  FaLinkedinIn,  FaEnvelope,FaPhoneAlt  } from "react-icons/fa";
 import React from 'react'
 
