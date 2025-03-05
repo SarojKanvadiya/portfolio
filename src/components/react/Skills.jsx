@@ -1,4 +1,5 @@
 import { VStack, Heading, Flex, Box, Image, Text, HStack } from '@chakra-ui/react'
+import images from "../../assets/images/"
 import React from 'react'
 
 const Skills = () => {
@@ -7,39 +8,39 @@ const Skills = () => {
         <Heading fontSize={{base:"2xl",sm:"3xl", md:"4xl"}}>SKills</Heading>
         <Flex wrap="wrap" gap={1} m={6} justifyContent={"center"} display={{base:"none", md:"flex"}} >
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5}  src='/images/html.png' alt='html-logo' w={{base:"30px", sm:"40px"}}/>
+                <Image ml={5}  src='../../assets/images/html.png' alt='html-logo' w={{base:"30px", sm:"40px"}}/>
                 <Text pl={4} fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>HTML</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5} src='/images/css.png' alt='css-logo'w={{base:"30px", sm:"40px"}}/>
+                <Image ml={5} src='../../assets/images/css.png' alt='css-logo'w={{base:"30px", sm:"40px"}}/>
                 <Text pl={4}  fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>CSS</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5} src='/images/js.png' alt='js-logo' w={{base:"30px", sm:"35px"}}/>
+                <Image ml={5} src='../../assets/images/js.png' alt='js-logo' w={{base:"30px", sm:"35px"}}/>
                 <Text pl={4}  fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>JavaScript</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5} src='/images/nodejs.png' alt='nodejs-logo'w={{base:"40px", sm:"50px"}}/>
+                <Image ml={5} src='../../assets/images/nodejs.png' alt='nodejs-logo'w={{base:"40px", sm:"50px"}}/>
                 <Text pl={4}  fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>Node JS</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={4} src='/images/react.png' alt='react-logo' w={{base:"40px", sm:"50px"}}/>
+                <Image ml={4} src='../../assets/images/react.png' alt='react-logo' w={{base:"40px", sm:"50px"}}/>
                 <Text pl={2} fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>React</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5} src='/images/redux.png' alt='redux-logo' w={{base:"30px", sm:"35px"}}/>
+                <Image ml={5} src='../../assets/images/redux.png' alt='redux-logo' w={{base:"30px", sm:"35px"}}/>
                 <Text pl={4}  fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>Redux</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5} src='/images/chakra.png' alt='chakra-logo' w={{base:"25px", sm:"35px"}}/>
+                <Image ml={5} src='../../assets/images/chakra.png' alt='chakra-logo' w={{base:"25px", sm:"35px"}}/>
                 <Text pl={4}  fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>Chakra UI</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5} src='/images/github.png' alt='github-logo'w={{base:"25px", sm:"30px"}}/>
+                <Image ml={5} src='../../assets/images/github.png' alt='github-logo'w={{base:"25px", sm:"30px"}}/>
                 <Text pl={4}  fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>GitHub</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5}  src='portfolio\src\assets\visual.png' alt='visual-logo' w={{base:"25px", sm:"35px"}}/>
+                <Image ml={5}  src='../../assets/images/visual.png' alt='visual-logo' w={{base:"25px", sm:"35px"}}/>
                 <Text pl={4} fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>Visual Studio</Text>
             </Flex>
         </Flex>

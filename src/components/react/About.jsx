@@ -1,6 +1,5 @@
 import { VStack, Text, Heading, Grid, GridItem,Button, Link, Center, Image, Box } from '@chakra-ui/react'
 import { FaFileArrowDown } from "react-icons/fa6";
-import Photo from "../../assets/sarojkanvadiya.jpg"
 import React from 'react'
 
 const About = () => {
