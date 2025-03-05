@@ -29,7 +29,7 @@ const Navbar = () => {
                     </Link>
                 </Flex>
                 <Link display={{base:"none", md:"flex", lg:"none"}} href={resume} download={'SarojKanvadiya-FrontendDeveloper(React)'}>
-                        <Button variant={"outline"} color={'teal'} size={"sm"} ><FaFileArrowDown /> Resume</Button>
+                        <Button  variant={"outline"} color={"white"} ><FaFileArrowDown /> Resume</Button>
                     </Link>
                
                  <Flex display={{ base: "flex", lg: "none" }}>
