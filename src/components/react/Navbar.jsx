@@ -9,8 +9,8 @@ const Navbar = () => {
     console.log(menu, "menu", close, "close")
     return (
         <>
-            <Flex bg={"teal"} w={"100%"} justify={"space-between"} p={2} color={"white"} align={"center"} className='navbar'>
-                <Heading size={{ base: "2xl", md: "3xl" }} display={{ base: "none", sm: "flex" }} ml={20}>Saroj Kanvadiya</Heading>
+            <Flex bg={"teal"} w={"100%"} justify={{base:"space-between", sm:"space-around"}} p={2} color={"white"} align={"center"} className='navbar'>
+                <Heading size={{ base: "2xl", md: "3xl" }} display={{ base: "none", sm: "flex" }} >Saroj Kanvadiya</Heading>
                 <Heading size={"2xl"} ml={6} display={{ sm: "none" }}>Saroj</Heading>
                 <Flex w={"50%"} justify={"space-between"} fontSize={"18px"} display={{ base: "none", lg: "flex" }}>
                     <Link href='#home' color={"white"}>Home</Link>
