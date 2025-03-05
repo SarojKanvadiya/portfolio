@@ -28,9 +28,11 @@ const Navbar = () => {
                         <Button ml={10} variant={"outline"} color={"white"}><FaFileArrowDown /> Resume</Button>
                     </Link>
                 </Flex>
-
+                <Link display={{base:"none", md:"flex", lg:"none"}} href={resume} download={'SarojKanvadiya-FrontendDeveloper(React)'}>
+                        <Button variant={"outline"} color={'teal'} size={"sm"} ><FaFileArrowDown /> Resume</Button>
+                    </Link>
                
-                 <Flex display={{ base: "flex", md: "none" }}>
+                 <Flex display={{ base: "flex", lg: "none" }}>
                  <MenuRoot>
                 <MenuTrigger asChild>
                 <Button variant={"outline"} color={"white"} onClick={() => setMenu(!menu)}>
@@ -56,7 +58,7 @@ const Navbar = () => {
                      <MenuItem asChild value="contact">
                         <a href="#contact">Contact</a>
                     </MenuItem>
-                     <MenuItem asChild value="contact">
+                     <MenuItem asChild value="resume">
                      <Link href={resume} download={'SarojKanvadiya-FrontendDeveloper(React)'}>
                         <Button variant={"outline"} color={'teal'} size={"sm"} ><FaFileArrowDown /> Resume</Button>
                     </Link>
