@@ -7,7 +7,7 @@ import img5 from '../../images/react.png'
 import img6 from '../../images/redux.png'
 import img7 from '../../images/chakra.png'
 import img8 from '../../images/github.png'
-import img9 from '../../images/visual.png'
+import img9 from '../../images/visul.png'
 
 import React from 'react'
 
@@ -64,7 +64,6 @@ const Skills = () => {
           <Image src={img7} w={{base:"50px", sm:"70px"}}/>
           <Image src={img8} w={{base:"40px", sm:"60px"}} fit={"contain"}/>
           <Image src={img9} w={{base:"40px", sm:"60px"}} fit={"contain"}/>
-          
         </Flex>
     </VStack>
   )
