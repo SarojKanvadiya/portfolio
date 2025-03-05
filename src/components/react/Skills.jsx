@@ -1,5 +1,4 @@
 import { VStack, Heading, Flex, Box, Image, Text, HStack } from '@chakra-ui/react'
-import img1 from '../../images/html.png'
 import React from 'react'
 
 const Skills = () => {
@@ -8,7 +7,7 @@ const Skills = () => {
         <Heading fontSize={{base:"2xl",sm:"3xl", md:"4xl"}}>SKills</Heading>
         <Flex wrap="wrap" gap={1} m={6} justifyContent={"center"} display={{base:"none", md:"flex"}} >
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
-                <Image ml={5}  src={img1} alt='html-logo' w={{base:"30px", sm:"40px"}}/>
+                <Image ml={5}  src='./images/html.png' alt='html-logo' w={{base:"30px", sm:"40px"}}/>
                 <Text pl={4} fontWeight={"bold"} fontSize={{base:"15px" , sm:"18px"}}>HTML</Text>
             </Flex>
             <Flex w={{base:"200px", md:"250px"}} bg={"teal.100"} p={{base:1,md:2}} m={{base:1,md:2}} borderRadius={"5px"} align={"center"}>
