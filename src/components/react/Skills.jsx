@@ -7,7 +7,7 @@ import img5 from '../../images/react.png'
 import img6 from '../../images/redux.png'
 import img7 from '../../images/chakra.png'
 import img8 from '../../images/github.png'
-import img9 from '../../images/visul.png'
+import img9 from '../../images/visual.png'
 
 import React from 'react'
 
