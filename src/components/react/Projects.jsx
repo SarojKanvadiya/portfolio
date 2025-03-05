@@ -1,5 +1,7 @@
 import { VStack, Text, Heading, Grid, GridItem, Image, Center, Link, Button } from '@chakra-ui/react'
 import { FaGlobe, FaGithub } from "react-icons/fa";
+import home1 from '../../images/home.png'
+import home2 from '../../images/home2.png'
 import React from 'react'
 
 const Projects = () => {
@@ -9,8 +11,8 @@ const Projects = () => {
             <Heading fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} mb={{base:0, md:4}}  mt={{base:-2, sm:-1,md:0}}>Projects</Heading>
             <Grid templateColumns={{base:"1fr", lg:"2fr 1fr"}} w={"90%"} m={5}>
                 <GridItem m={"auto"}>
-                    <Image src='src\assets\home.png' display={{base:"none", md:"flex"}}/>
-                    <Image src='src\assets\home2.png' w={{base:"250px", sm:"350px"}} display={{base:"flex", md:"none"}}/>
+                    <Image src={home1} display={{base:"none", md:"flex"}}/>
+                    <Image src={home2} w={{base:"250px", sm:"350px"}} display={{base:"flex", md:"none"}}/>
                 </GridItem>
                 <GridItem m={"auto"}>
                     <Text m={5} textAlign={{base:"center", md:"justify"}} fontSize={{base:"14px",sm:"15px"}}> 
