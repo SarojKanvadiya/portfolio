@@ -17,7 +17,7 @@ const Navbar = () => {
             <Flex bg={"teal"} w={"100%"} justify={"space-between"} p={2} color={"white"} align={"center"} className='navbar'>
                 <Heading size={{ base: "2xl", md: "3xl" }} display={{ base: "none", sm: "flex" }} ml={20}>Saroj Kanvadiya</Heading>
                 <Heading size={"2xl"} ml={6} display={{ sm: "none" }}>Saroj</Heading>
-                <Flex w={"50%"} justify={"space-between"} fontSize={"18px"} display={{ base: "none", md: "flex" }}>
+                <Flex w={"50%"} justify={"space-between"} fontSize={"18px"} display={{ base: "none", lg: "flex" }}>
                     <Link href='#home' color={"white"}>Home</Link>
                     <Link href='#about' color={"white"}>About</Link>
                     <Link href='#skills' color={"white"}>Skills</Link>
